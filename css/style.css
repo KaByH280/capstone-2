@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Anonymous Pro', monospace;
+    color: #d9cdbb;
+    font-size: 16px;
+}
+
+.title-section, .content-section, .footer-content {
+    padding: 0 360px;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url("../images/bg-papers.jpg");
+    background-size: cover;
+}
+
+.title-section > h1 {
+    align-self: center;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 20px 0 20px;
+}
+
+.title-section > img {
+    border-radius: 50%;
+    height: 240px;
+}
+
+.title-section > h2,  .title-section > p{
+    font-size: 2.875rem;
+
+    font-weight: 400;
+}
+
+.title-section > h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.content-section {
+    background-image: linear-gradient(rgba(74, 157, 164, 1), rgba(45, 95, 99, 1)),
+    url("../../media/examples/lizard.png");
+}
+
+.content-section h2 {
+    margin: 40px 0 0;
+    font-size: 4.2rem;
+    text-align: right;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 2.125rem;
+    line-height: 3rem;
+}
+
+.content-section_column.right ul{
+    text-align: right;
+}
+
+.content-section_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-section_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-title{
+    text-align: center !important;
+    margin-top: 0;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(223, 134, 91);
+}
+
+.footer-title{
+    font-size: 3rem;
+    color: #403B20;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
